@@ -1,0 +1,58 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/board-eval/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/node:webpack",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/board-eval",
+        "main": "apps/board-eval/src/main.ts",
+        "tsConfig": "apps/board-eval/tsconfig.app.json",
+        "assets": ["apps/board-eval/src/assets"]
+      },
+      "configurations": {
+        "production": {
+          "optimization": true,
+          "extractLicenses": true,
+          "inspect": false,
+          "fileReplacements": [
+            {
+              "replace": "apps/board-eval/src/environments/environment.ts",
+              "with": "apps/board-eval/src/environments/environment.prod.ts"
+            }
+          ]
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/node:node",
+      "options": {
+        "buildTarget": "board-eval:build"
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "board-eval:build:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/board-eval/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/board-eval"],
+      "options": {
+        "jestConfig": "apps/board-eval/jest.config.ts",
+        "passWithNoTests": true,
+        "coverageReporters": ["text"]
+      }
+    }
+  },
+  "tags": []
+}

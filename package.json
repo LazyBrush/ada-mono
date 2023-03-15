@@ -5,7 +5,7 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test --coverage",
+    "test": "nx run-many --target=test --all --output-style=stream-without-prefixes --coverage",
     "lint": "nx lint",
     "prettier-check": "yarn prettier --check .",
     "prettier-write": "yarn prettier --write ."

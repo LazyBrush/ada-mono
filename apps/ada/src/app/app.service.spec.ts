@@ -18,4 +18,10 @@ describe('AppService', () => {
       expect(service.getData()).toEqual({ message: 'Welcome to ada!' });
     });
   });
+
+  describe('someOtherFunc', () => {
+    it('should return "Other message"', () => {
+      expect(service.someOtherFunc()).toEqual({ message: 'Other message' });
+    });
+  });
 });

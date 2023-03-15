@@ -1,5 +1,7 @@
 ## History with comments
 
+## Checkpoint git tag `step1`
+
 Use nx to make a repo called 'ada-mono' with app 'ada'. Ada is the name of our cat, so seems appropriate.
 
     npx create-nx-workspace ada-mono --preset=nest
@@ -15,9 +17,9 @@ We can also see the graph of dependencies, at this point should be quite simple.
 
     nx graph
 
-## Checkpoint git tag `step1`
-
 ## Coverage
+
+## Checkpoint git tag `step2`
 
 It is nice to see the coverage of your files to visually see more work is needed. Also it is good to set a threshold of what we take as an acceptable level, if we go below this level we should not accept the test as passed.
 
@@ -29,4 +31,12 @@ Now comment out the 'someOtherFunc' test from app.service.spec.ts and re-run the
 
 Notes: We should really have the coverageThreshold set globally, but the preset from top level did not work for me.
 
-## Checkpoint git tag `step2`
+## Lint and Formatting
+
+## Checkpoint git tag `step3`
+
+In the package.json we now see some extra scripts, lint and prettier.
+
+    yarn lint
+    yarn prettier-check
+    yarn prettier-write

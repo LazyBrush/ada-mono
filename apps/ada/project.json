@@ -50,9 +50,7 @@
       "options": {
         "jestConfig": "apps/ada/jest.config.ts",
         "passWithNoTests": true,
-        "coverageReporters": [
-          "text"
-        ]
+        "coverageReporters": ["text"]
       }
     }
   },

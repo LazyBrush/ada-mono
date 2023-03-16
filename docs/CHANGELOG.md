@@ -1,9 +1,8 @@
 # [1.6.0](https://github.com/LazyBrush/ada-mono/compare/v1.5.0...v1.6.0) (2023-03-16)
 
-
 ### Features
 
-* **release:** added package lock to the list of files semantic release git uses ([48dbb93](https://github.com/LazyBrush/ada-mono/commit/48dbb936cfdc823e8a14087fd9771e182cae1464))
+- **release:** added package lock to the list of files semantic release git uses ([48dbb93](https://github.com/LazyBrush/ada-mono/commit/48dbb936cfdc823e8a14087fd9771e182cae1464))
 
 # [1.5.0](https://github.com/LazyBrush/ada-mono/compare/v1.4.0...v1.5.0) (2023-03-16)
 

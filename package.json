@@ -10,7 +10,8 @@
     "lint": "nx run-many --target=lint --all",
     "prettier-check": "yarn prettier --check .",
     "prettier-write": "yarn prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "npx semantic-release --no-ci"
   },
   "private": true,
   "dependencies": {
@@ -32,6 +33,7 @@
     "@nrwl/node": "14.5.4",
     "@nrwl/workspace": "14.5.4",
     "@semantic-release/git": "^10.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "@types/jest": "27.4.1",
     "@types/node": "16.11.7",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
@@ -59,7 +61,15 @@
     ],
     "plugins": [
       "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
+      ["@semantic-release/release-notes-generator", {
+        "preset": "angular",
+        "parserOpts": {
+          "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
+        },
+        "writerOpts": {
+          "commitsSort": ["subject", "scope"]
+        }
+      }],
       [
         "@semantic-release/git",
         {

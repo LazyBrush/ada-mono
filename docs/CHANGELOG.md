@@ -1,9 +1,8 @@
 # [1.5.0](https://github.com/LazyBrush/ada-mono/compare/v1.4.0...v1.5.0) (2023-03-16)
 
-
 ### Features
 
-* **board-eval:** queen is now black ([4c118fe](https://github.com/LazyBrush/ada-mono/commit/4c118fe6a4e730ff77d78997af05fc26422f1bb7))
+- **board-eval:** queen is now black ([4c118fe](https://github.com/LazyBrush/ada-mono/commit/4c118fe6a4e730ff77d78997af05fc26422f1bb7))
 
 # [1.4.0](https://github.com/LazyBrush/ada-mono/compare/v1.3.0...v1.4.0) (2023-03-16)
 

@@ -75,3 +75,19 @@ Lets see the dependencies within the project now.
 Also changed the package.json 'test' script. Now we traverse all the apps/libs to test.
 
     yarn test
+
+## Commit hooks with husky
+
+## Checkpoint git tag `step5`
+
+Install husky, see https://www.npmjs.com/package/husky
+
+    yarn add husky -D
+
+    # once only
+    npm pkg set scripts.prepare="husky install"
+    npm run prepare
+
+    # add hook
+    npx husky add .husky/pre-commit "yarn test"
+    git add .husky/pre-commit

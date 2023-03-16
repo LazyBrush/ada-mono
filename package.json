@@ -4,11 +4,12 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
-    "build": "nx build",
+    "build": "nx run-many --target=build --all",
     "test": "nx run-many --target=test --all --output-style=stream-without-prefixes --coverage",
-    "lint": "nx lint",
+    "lint": "nx run-many --target=lint --all",
     "prettier-check": "yarn prettier --check .",
-    "prettier-write": "yarn prettier --write ."
+    "prettier-write": "yarn prettier --write .",
+    "prepare": "husky install"
   },
   "private": true,
   "dependencies": {
@@ -35,6 +36,7 @@
     "@typescript-eslint/parser": "^5.29.0",
     "eslint": "~8.15.0",
     "eslint-config-prettier": "8.1.0",
+    "husky": "^8.0.3",
     "jest": "27.5.1",
     "nx": "14.5.4",
     "prettier": "^2.6.2",

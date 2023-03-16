@@ -89,5 +89,11 @@ Install husky, see https://www.npmjs.com/package/husky
     npm run prepare
 
     # add hook
-    npx husky add .husky/pre-commit "yarn test"
+    npx husky add .husky/pre-commit "yarn lint"
     git add .husky/pre-commit
+
+## Also add test and prettier to husky
+
+## Checkpoint git tag `step6`
+
+    Try to commit some bad code and see what happens

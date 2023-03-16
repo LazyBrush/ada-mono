@@ -1,9 +1,8 @@
 # [1.4.0](https://github.com/LazyBrush/ada-mono/compare/v1.3.0...v1.4.0) (2023-03-16)
 
-
 ### Features
 
-* **npm:** added npm semantic release minus publish to npm ([8d0286d](https://github.com/LazyBrush/ada-mono/commit/8d0286ddd644e7e0924a1a211166b35a0ded11a9))
+- **npm:** added npm semantic release minus publish to npm ([8d0286d](https://github.com/LazyBrush/ada-mono/commit/8d0286ddd644e7e0924a1a211166b35a0ded11a9))
 
 # [1.3.0](https://github.com/LazyBrush/ada-mono/compare/v1.2.0...v1.3.0) (2023-03-16)
 

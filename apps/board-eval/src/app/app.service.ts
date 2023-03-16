@@ -9,7 +9,7 @@ export class AppService {
         x: 1,
         y: 1,
       },
-      colour: Colour.White,
+      colour: Colour.Black,
       name: Name.Queen,
       id: 'example queen',
     };

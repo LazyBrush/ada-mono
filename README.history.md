@@ -97,3 +97,7 @@ Install husky, see https://www.npmjs.com/package/husky
 ## Checkpoint git tag `step6`
 
     Try to commit some bad code and see what happens
+
+## Also add pre push for audit
+
+## Checkpoint git tag `step7`

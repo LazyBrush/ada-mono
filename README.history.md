@@ -101,3 +101,11 @@ Install husky, see https://www.npmjs.com/package/husky
 ## Also add pre push for audit
 
 ## Checkpoint git tag `step7`
+
+## Use commitizen to standardise on commit messages
+
+    npm install -g commitizen
+
+Added "cz" to scripts in package.json, from now on use 'yarn commit' rather than 'git commit'
+
+    yarn commit

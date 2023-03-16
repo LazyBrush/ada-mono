@@ -104,7 +104,10 @@ Install husky, see https://www.npmjs.com/package/husky
 
 ## Use commitizen to standardise on commit messages
 
+## Checkpoint git tag `step8`
+
     npm install -g commitizen
+    commitizen init cz-conventional-changelog --yarn --dev --exact
 
 Added "cz" to scripts in package.json, from now on use 'yarn commit' rather than 'git commit'
 

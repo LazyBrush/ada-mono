@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/LazyBrush/ada-mono/compare/v1.10.1...v1.11.0) (2023-03-17)
+
+
+### Features
+
+* **husky:** re-enable husky and ask prettier to ignore the auto generate changelog ([0ab27b7](https://github.com/LazyBrush/ada-mono/commit/0ab27b76828791f5363113abfe6311c38fec8a8f))
+
 ## [1.10.1](https://github.com/LazyBrush/ada-mono/compare/v1.10.0...v1.10.1) (2023-03-17)
 
 ### Bug Fixes

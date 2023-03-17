@@ -1,4 +1,4 @@
-import { Colour, Name, Piece } from '@ada-mono/chess-base';
+import { Colour, Name, Piece } from '@ada-mono/chess-types';
 import { Injectable } from '@nestjs/common';
 
 @Injectable()

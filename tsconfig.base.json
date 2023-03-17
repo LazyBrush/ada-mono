@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ada-mono/chess-base": ["libs/chess-base/src/index.ts"]
+      "@ada-mono/chess-types": ["libs/chess-types/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

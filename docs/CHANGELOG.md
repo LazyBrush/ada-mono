@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/LazyBrush/ada-mono/compare/v1.8.3...v1.9.0) (2023-03-17)
+
+
+### Features
+
+* **commit-analyzer:** added package and options ([c299352](https://github.com/LazyBrush/ada-mono/commit/c2993521190b4e7a84f4fffa17f9e3e1368c2537))
+
 ## [1.8.3](https://github.com/LazyBrush/ada-mono/compare/v1.8.2...v1.8.3) (2023-03-17)
 
 ### Bug Fixes

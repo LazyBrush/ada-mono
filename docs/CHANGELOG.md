@@ -1,9 +1,8 @@
 ## [1.8.3](https://github.com/LazyBrush/ada-mono/compare/v1.8.2...v1.8.3) (2023-03-17)
 
-
 ### Bug Fixes
 
-* **package.json:** put them both back in ([4b9e615](https://github.com/LazyBrush/ada-mono/commit/4b9e61568004f802a567749bd4e6bf9e77ef1ad4))
+- **package.json:** put them both back in ([4b9e615](https://github.com/LazyBrush/ada-mono/commit/4b9e61568004f802a567749bd4e6bf9e77ef1ad4))
 
 # [1.8.0](https://github.com/LazyBrush/ada-mono/compare/v1.7.0...v1.8.0) (2023-03-17)
 

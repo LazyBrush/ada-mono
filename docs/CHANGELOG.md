@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/LazyBrush/ada-mono/compare/v1.10.0...v1.10.1) (2023-03-17)
+
+
+### Bug Fixes
+
+* **husky:** told husky to be quiet ([0766b21](https://github.com/LazyBrush/ada-mono/commit/0766b2192a37d9067f26a13a4ec862f7c7305ae7))
+
 # [1.10.0](https://github.com/LazyBrush/ada-mono/compare/v1.9.0...v1.10.0) (2023-03-17)
 
 ### Features

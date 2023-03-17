@@ -1,9 +1,8 @@
 # [1.8.0](https://github.com/LazyBrush/ada-mono/compare/v1.7.0...v1.8.0) (2023-03-17)
 
-
 ### Features
 
-* **changelog:** reorder of changelog and release-notes-generator ([a70394f](https://github.com/LazyBrush/ada-mono/commit/a70394fb32f8e5e91e0827012b1b1f19803e6732))
+- **changelog:** reorder of changelog and release-notes-generator ([a70394f](https://github.com/LazyBrush/ada-mono/commit/a70394fb32f8e5e91e0827012b1b1f19803e6732))
 
 # [1.7.0](https://github.com/LazyBrush/ada-mono/compare/v1.6.0...v1.7.0) (2023-03-16)
 

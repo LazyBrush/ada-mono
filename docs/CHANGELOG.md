@@ -1,3 +1,16 @@
+# [1.12.0](https://github.com/LazyBrush/ada-mono/compare/v1.11.0...v1.12.0) (2023-03-17)
+
+
+### Bug Fixes
+
+* **jest:** put the coverageDirectory back in, warning was in error ([e4f5674](https://github.com/LazyBrush/ada-mono/commit/e4f5674f89a0bba1651647c30ec173a324a187de))
+
+
+### Features
+
+* **catface:** added react app needed update of nx and other tweaks ([47bff98](https://github.com/LazyBrush/ada-mono/commit/47bff98e18a32e347e63dcee99b1780ebfbefc0f))
+* **chess-types:** removed chess-base for chess-type ([e2074b7](https://github.com/LazyBrush/ada-mono/commit/e2074b718648da5e44b433a011cd6594c92376e1))
+
 # [1.11.0](https://github.com/LazyBrush/ada-mono/compare/v1.10.1...v1.11.0) (2023-03-17)
 
 

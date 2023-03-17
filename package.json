@@ -10,8 +10,9 @@
     "lint": "nx run-many --target=lint --all",
     "prettier-check": "yarn prettier --check .",
     "prettier-write": "yarn prettier --write .",
-    "prepare": "husky install",
-    "release": "npx semantic-release --no-ci"
+    "release": "npx semantic-release --no-ci",
+    "get-version": "jq -S -r '.version' package.json",
+    "docker-build": "nx run-many --target=dockerbuild --all"
   },
   "private": true,
   "dependencies": {

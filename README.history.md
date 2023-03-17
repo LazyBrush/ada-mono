@@ -112,3 +112,21 @@ Install husky, see https://www.npmjs.com/package/husky
 Added "cz" to scripts in package.json, from now on use 'yarn commit' rather than 'git commit'
 
     yarn commit
+
+## Lots of versions with semanic-release
+
+Using the structured commit messages and auto updates the version in package.json when we run
+
+    yarn release
+
+## Docker Build
+
+Added custom command to the apps, so we can now build all images with the command
+
+    yarn docker-build
+
+This currently uses a Dockerfile with some of the points from synk's top 10 Dockerfile recommendations.
+
+That yarn command in turn runs each app's dockerbuild entry which in turn hits a shell script which checks there is a name of an image to build and uses the current package.json version for the tag.
+
+That shell script could be improved or even written with Commander.

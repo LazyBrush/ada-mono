@@ -52,6 +52,12 @@
         "passWithNoTests": true,
         "coverageReporters": ["text"]
       }
+    },
+    "dockerbuild" : {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "scripts/build-docker-image.sh board-eval"
+      }
     }
   },
   "tags": []

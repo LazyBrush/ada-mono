@@ -53,7 +53,7 @@
         "coverageReporters": ["text"]
       }
     },
-    "dockerbuild" : {
+    "dockerbuild": {
       "executor": "nx:run-commands",
       "options": {
         "command": "scripts/build-docker-image.sh board-eval"

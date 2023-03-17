@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-# yarn test
-# yarn prettier-write
-# yarn lint
+yarn test
+yarn prettier-write
+yarn lint

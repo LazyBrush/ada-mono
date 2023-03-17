@@ -1,6 +1,6 @@
 {
   "name": "ada-mono",
-  "version": "1.8.1",
+  "version": "1.7.0",
   "license": "MIT",
   "scripts": {
     "commit": "cz",
@@ -70,22 +70,9 @@
         }
       ],
       [
-        "@semantic-release/release-notes-generator",
+        "@semantic-release/changelog",
         {
-          "preset": "angular",
-          "parserOpts": {
-            "noteKeywords": [
-              "BREAKING CHANGE",
-              "BREAKING CHANGES",
-              "BREAKING"
-            ]
-          },
-          "writerOpts": {
-            "commitsSort": [
-              "subject",
-              "scope"
-            ]
-          }
+          "changelogFile": "docs/CHANGELOG.md"
         }
       ],
       [

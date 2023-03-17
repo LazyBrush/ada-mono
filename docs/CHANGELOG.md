@@ -1,9 +1,8 @@
 # [1.10.0](https://github.com/LazyBrush/ada-mono/compare/v1.9.0...v1.10.0) (2023-03-17)
 
-
 ### Features
 
-* **dockerfile:** added dockerfile and scripts to call it for each app ([12805b9](https://github.com/LazyBrush/ada-mono/commit/12805b92c666732c03452273868aa67c761d461d))
+- **dockerfile:** added dockerfile and scripts to call it for each app ([12805b9](https://github.com/LazyBrush/ada-mono/commit/12805b92c666732c03452273868aa67c761d461d))
 
 # [1.9.0](https://github.com/LazyBrush/ada-mono/compare/v1.8.3...v1.9.0) (2023-03-17)
 

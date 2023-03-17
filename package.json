@@ -64,12 +64,6 @@
     "plugins": [
       "@semantic-release/commit-analyzer",
       [
-        "@semantic-release/changelog",
-        {
-          "changelogFile": "docs/CHANGELOG.md"
-        }
-      ],
-      [
         "@semantic-release/npm",
         {
           "npmPublish": false
@@ -92,6 +86,12 @@
               "scope"
             ]
           }
+        }
+      ],
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "docs/CHANGELOG.md"
         }
       ],
       [

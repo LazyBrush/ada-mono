@@ -1,9 +1,8 @@
 # [1.7.0](https://github.com/LazyBrush/ada-mono/compare/v1.6.0...v1.7.0) (2023-03-16)
 
-
 ### Features
 
-* **semantic-release:** better options for the assests ([cd29321](https://github.com/LazyBrush/ada-mono/commit/cd29321562162cf7dcdeed200098c22e776e48dc))
+- **semantic-release:** better options for the assests ([cd29321](https://github.com/LazyBrush/ada-mono/commit/cd29321562162cf7dcdeed200098c22e776e48dc))
 
 # [1.6.0](https://github.com/LazyBrush/ada-mono/compare/v1.5.0...v1.6.0) (2023-03-16)
 

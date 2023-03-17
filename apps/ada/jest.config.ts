@@ -20,4 +20,5 @@ export default {
       statements: -10,
     },
   },
+  coverageDirectory: '../../coverage/apps/ada',
 };

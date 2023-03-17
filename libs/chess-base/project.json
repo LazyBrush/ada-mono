@@ -1,4 +1,5 @@
 {
+  "name": "chess-base",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/chess-base/src",
   "projectType": "library",

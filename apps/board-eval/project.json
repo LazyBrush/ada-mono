@@ -1,4 +1,5 @@
 {
+  "name": "board-eval",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/board-eval/src",
   "projectType": "application",

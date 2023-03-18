@@ -89,7 +89,6 @@
         "command": "scripts/build-docker-image.sh catface react"
       }
     }
-
   },
   "tags": []
 }

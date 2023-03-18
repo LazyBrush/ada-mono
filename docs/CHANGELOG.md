@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/LazyBrush/ada-mono/compare/v1.12.0...v1.13.0) (2023-03-18)
+
+
+### Features
+
+* **dockerfiles:** now with react and nodejs based dockerfiles ([535121f](https://github.com/LazyBrush/ada-mono/commit/535121fe242d8c89f5821f2476e589ceb94a6ce7))
+
 # [1.12.0](https://github.com/LazyBrush/ada-mono/compare/v1.11.0...v1.12.0) (2023-03-17)
 
 

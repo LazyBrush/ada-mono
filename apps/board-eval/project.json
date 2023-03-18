@@ -57,7 +57,7 @@
     "dockerbuild": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "scripts/build-docker-image.sh board-eval"
+        "command": "scripts/build-docker-image.sh board-eval nodejs"
       }
     }
   },

@@ -82,7 +82,14 @@
           "codeCoverage": true
         }
       }
+    },
+    "dockerbuild": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "scripts/build-docker-image.sh catface react"
+      }
     }
+
   },
   "tags": []
 }

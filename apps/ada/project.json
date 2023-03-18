@@ -57,7 +57,7 @@
     "dockerbuild": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "scripts/build-docker-image.sh ada"
+        "command": "scripts/build-docker-image.sh ada nodejs"
       }
     }
   },

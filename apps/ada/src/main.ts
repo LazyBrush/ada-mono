@@ -8,6 +8,9 @@ import { NestFactory } from '@nestjs/core';
 
 import { AppModule } from './app/app.module';
 
+import { version } from '../../../package.json';
+import { name } from '../project.json';
+
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   const globalPrefix = 'api';
@@ -15,7 +18,7 @@ async function bootstrap() {
   const port = process.env.PORT || 3333;
   await app.listen(port);
   Logger.log(
-    `🚀 Application is running on: http://localhost:${port}/${globalPrefix}`
+    `🚀 Application ${name}:${version} is running on: http://localhost:${port}/${globalPrefix}`
   );
 }
 

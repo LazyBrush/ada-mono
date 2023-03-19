@@ -6,7 +6,7 @@
     "commit": "cz",
     "start": "nx serve",
     "build": "nx run-many --target=build --all",
-    "test": "nx run-many --target=test --all --output-style=stream-without-prefixes --coverage",
+    "test": "nx run-many --target=test --all --output-style=stream-without-prefixes --coverage --verbose",
     "lint": "nx run-many --target=lint --all",
     "prettier-check": "yarn prettier --check .",
     "prettier-write": "yarn prettier --write .",

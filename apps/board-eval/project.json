@@ -51,7 +51,7 @@
       "options": {
         "jestConfig": "apps/board-eval/jest.config.ts",
         "passWithNoTests": true,
-        "coverageReporters": ["text",  "json"]
+        "coverageReporters": ["text", "json"]
       }
     },
     "dockerbuild": {

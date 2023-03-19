@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/LazyBrush/ada-mono/compare/v1.16.0...v1.17.0) (2023-03-19)
+
+
+### Features
+
+* **catface-next:** added catface-next a nextjs app ([87dad82](https://github.com/LazyBrush/ada-mono/commit/87dad8264bbcbccca126763d5204723bd8ca857e))
+
 # [1.16.0](https://github.com/LazyBrush/ada-mono/compare/v1.15.0...v1.16.0) (2023-03-19)
 
 

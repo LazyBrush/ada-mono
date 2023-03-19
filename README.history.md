@@ -130,3 +130,7 @@ This currently uses a Dockerfile with some of the points from synk's top 10 Dock
 That yarn command in turn runs each app's dockerbuild entry which in turn hits a shell script which checks there is a name of an image to build and uses the current package.json version for the tag.
 
 That shell script could be improved or even written with Commander.
+
+## Test Summary
+
+By default nx and jest don't do a summary of all the tests. However, it is quite useful to see all the files tested, and also the summary of all the files tested. For this we have added a 'posttest' script which collates all the final json and then outputs text summary. See the script 'post-test-summary.sh' for details.

@@ -1,6 +1,18 @@
 # [1.16.0](https://github.com/LazyBrush/ada-mono/compare/v1.15.0...v1.16.0) (2023-03-19)
 
 
+### Bug Fixes
+
+* **isantbul:** added yargs-parser resolution for istanbul ([64eeeab](https://github.com/LazyBrush/ada-mono/commit/64eeeabf2262bc1252111cc922f5208a5b73eb27))
+
+
+### Features
+
+* **test:** tidied up test summary ([ddbca1d](https://github.com/LazyBrush/ada-mono/commit/ddbca1dc9e346bd919c29110b868b2d66b282bf1))
+
+# [1.16.0](https://github.com/LazyBrush/ada-mono/compare/v1.15.0...v1.16.0) (2023-03-19)
+
+
 ### Features
 
 * **test:** tidied up test summary ([ddbca1d](https://github.com/LazyBrush/ada-mono/commit/ddbca1dc9e346bd919c29110b868b2d66b282bf1))

@@ -1,3 +1,15 @@
+# [1.14.0](https://github.com/LazyBrush/ada-mono/compare/v1.13.0...v1.14.0) (2023-03-19)
+
+
+### Bug Fixes
+
+* **tests:** moved jest config for less warnings and verbose to see coverage ([e402dd4](https://github.com/LazyBrush/ada-mono/commit/e402dd4b96158c61288fa33c36dd5755ec1b7570))
+
+
+### Features
+
+* **version:** show name and version on startup line ([f81bc0f](https://github.com/LazyBrush/ada-mono/commit/f81bc0f92c56a13b7bdd0e3e6f28f8c853e79e1d))
+
 # [1.13.0](https://github.com/LazyBrush/ada-mono/compare/v1.12.0...v1.13.0) (2023-03-18)
 
 

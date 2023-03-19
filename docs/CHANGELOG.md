@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/LazyBrush/ada-mono/compare/v1.14.0...v1.15.0) (2023-03-19)
+
+
+### Features
+
+* **test:** added test summary ([2f4d224](https://github.com/LazyBrush/ada-mono/commit/2f4d224cbbe33be6dbb873275db3add4964b1603))
+
 # [1.14.0](https://github.com/LazyBrush/ada-mono/compare/v1.13.0...v1.14.0) (2023-03-19)
 
 

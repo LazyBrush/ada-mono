@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/LazyBrush/ada-mono/compare/v1.17.0...v1.18.0) (2023-05-19)
+
+
+### Features
+
+* **observability:** added jaeger prometheus and couple of services to use it ([021d0db](https://github.com/LazyBrush/ada-mono/commit/021d0dbd1925cf8c6f7a7ad840d8d5eee7f7b838))
+
 # [1.17.0](https://github.com/LazyBrush/ada-mono/compare/v1.16.0...v1.17.0) (2023-03-19)
 
 

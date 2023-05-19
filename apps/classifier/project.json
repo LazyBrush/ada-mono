@@ -1,0 +1,70 @@
+{
+  "name": "classifier",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/classifier/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "target": "node",
+        "compiler": "tsc",
+        "outputPath": "dist/apps/classifier",
+        "main": "apps/classifier/src/main.ts",
+        "tsConfig": "apps/classifier/tsconfig.app.json",
+        "assets": ["apps/classifier/src/assets"],
+        "isolatedConfig": true,
+        "webpackConfig": "apps/classifier/webpack.config.js"
+      },
+      "configurations": {
+        "development": {},
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "classifier:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "classifier:build:development"
+        },
+        "production": {
+          "buildTarget": "classifier:build:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/classifier/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/classifier/jest.config.ts",
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    },
+    "dockerbuild": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "scripts/build-docker-image.sh classifier nodejs"
+      }
+    }
+  },
+  "tags": []
+}

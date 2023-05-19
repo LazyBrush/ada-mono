@@ -5,6 +5,10 @@ APP=$1
 TYPE=$2
 TAG=$(jq -S -r '.version' package.json)
 
+echo "APP $APP"
+echo "TYPE $TYPE"
+echo "TAG $TAG"
+
 if [ "$APP" == "" ]
 then
   echo "Error: name of app required"

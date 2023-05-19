@@ -1,0 +1,63 @@
+version: "3.7"
+
+volumes:
+    prometheus_data: {}
+
+networks:
+  ada-net:
+
+services:
+  jaeger:
+    image: jaegertracing/all-in-one:latest
+    ports:
+      - "16686:16686"
+      - "14268:14268"
+      - "6831:6831"
+      - "6832:6832"
+      - "5775:5775"
+      - "14250:14250"
+      - "9411:9411"
+    environment:
+      - COLLECTOR_OTLP_ENABLED=true
+      - LOG_LEVEL=debug
+    networks:
+      - ada-net
+  prometheus:
+    image: prom/prometheus:v2.36.2
+    volumes:
+      - ./prometheus/:/etc/prometheus/
+      - prometheus_data:/prometheus
+    ports:
+      - "9090:9090"
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yaml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/usr/share/prometheus/console_libraries'
+      - '--web.console.templates=/usr/share/prometheus/consoles'
+    networks:
+      - ada-net
+  ada:
+    image: ada:1.17.0
+    environment:
+      - JAEGER_HOST=jaeger
+      - APP_NAME=ada
+      - OTEL_SERVICE_NAME=ada
+      - METRICS_PORT=8081
+      - PORT=3001
+      - CLASSIFIER_ENDPOINT=http://classifier:3002/
+    ports:
+      - 3001:3001
+    networks:
+      - ada-net
+  classifier:
+    image: classifier:1.17.0
+    environment:
+      - JAEGER_HOST=jaeger
+      - APP_NAME=classifier
+      - OTEL_SERVICE_NAME=classifier
+      - METRICS_PORT=8082
+      - PORT=3002
+    ports:
+      - 3002:3002
+    networks:
+      - ada-net

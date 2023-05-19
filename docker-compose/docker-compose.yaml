@@ -37,7 +37,7 @@ services:
     networks:
       - ada-net
   ada:
-    image: ada:1.17.0
+    image: ada:1.18.0
     environment:
       - JAEGER_HOST=jaeger
       - APP_NAME=ada
@@ -50,7 +50,7 @@ services:
     networks:
       - ada-net
   classifier:
-    image: classifier:1.17.0
+    image: classifier:1.18.0
     environment:
       - JAEGER_HOST=jaeger
       - APP_NAME=classifier
